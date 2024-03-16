@@ -43,7 +43,7 @@ html,body
 }
 .open-menu, .close-menu{
     position: absolute;
-    color: rgb(252,83,235);
+    color: black;
     font-size: 1.5rem;
     display: none;
 }
