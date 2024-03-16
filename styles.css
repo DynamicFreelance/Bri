@@ -95,9 +95,48 @@ html,body
     scroll-snap-align: start;
 }
 .hero__content{
-
+    padding:1rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align: center;
+}
+.hero__link{
+    padding:1rem;
+    margin-top:1rem;
+    margin-bottom:2rem;
+}
+.hero__link1{
+    padding:1rem;
+    margin-top:1rem;
+    margin-bottom:2rem;
 }
 .hero__link h1{
     color:black;
     font-size: 1.8rem;
+}
+.hero__link1 h1{
+    color:black;
+    font-size: 1.8rem;
+}
+@media screen and (max-width: 768px){
+    .hero__link1{
+        display:none;
+    }
+    .hero__content{
+        padding:1rem;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        text-align: center;
+    }
+    .hero__link:hover{
+        .hero__link1{
+            padding:1rem;
+            margin-top:1rem;
+            margin-bottom:2rem;
+            display:flex;
+        }
+    }
 }
