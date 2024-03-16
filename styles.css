@@ -14,7 +14,7 @@ html,body
 }
 /* navbar section */
 .navbar{
-    background: black;
+    background: white;
     height: 60px;
     padding: 0.5rem calc((50vw - 1600px) / 2);
     display: flex;
@@ -25,7 +25,7 @@ html,body
     text-align:center;
 }
 .navbar__logo{
-    color: pink;
+    color: rgb(252,83,235);
     text-decoration: none;
     font-size: 1rem;
 }
@@ -34,7 +34,7 @@ html,body
     width:150px;
 }
 .navbar__link{
-    color: pink;
+    color: rgb(252,83,235);
     text-decoration: none;
     padding: 0rem 0.5rem;
 }
@@ -43,7 +43,7 @@ html,body
 }
 .open-menu, .close-menu{
     position: absolute;
-    color: pink;
+    color: rgb(252,83,235);
     font-size: 1.5rem;
     display: none;
 }
@@ -68,7 +68,7 @@ html,body
         top: 0;
         right: -100%;
         z-index:100;
-        background-color: black;
+        background-color: white;
         transition: all 0.2s ease-in-out;
         text-align:center;
     }
