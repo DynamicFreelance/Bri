@@ -37,7 +37,6 @@ html,body
     color: pink;
     text-decoration: none;
     padding: 0rem 0.5rem;
-    cursor: none;
 }
 .navbar__link:hover{
     color: orange;
