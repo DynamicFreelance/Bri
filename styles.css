@@ -119,6 +119,7 @@ html,body
     color:black;
     font-size: 1.8rem;
 }
+#check{display: none;}
 @media screen and (max-width: 768px){
     .hero__link1{
         display:none;
@@ -139,4 +140,6 @@ html,body
             display:flex;
         }
     }
+    hero__link1{display:block;}
+    #check:checked ~ .navbar__menu {}
 }
