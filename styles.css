@@ -94,3 +94,10 @@ html,body
     align-items: center;
     scroll-snap-align: start;
 }
+.hero__content{
+
+}
+.hero__link h1{
+    color:black;
+    font-size: 1.8rem;
+}
