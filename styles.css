@@ -97,7 +97,7 @@ html,body
 .hero__content{
     padding:1rem;
     display:flex;
-    justify-content:center;
+    justify-content:bottom;
     align-items:center;
     text-align: center;
 }
