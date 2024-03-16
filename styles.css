@@ -34,7 +34,7 @@ html,body
     width:150px;
 }
 .navbar__link{
-    color: rgb(252,83,235);
+    color: black;
     text-decoration: none;
     padding: 0rem 0.5rem;
 }
