@@ -26,7 +26,7 @@ html,body
     text-align:center;
 }
 .navbar__logo{
-    color: rgb(252,83,235);
+    color: pink;
     text-decoration: none;
     font-size: 1rem;
 }
@@ -45,7 +45,7 @@ html,body
 }
 .open-menu, .close-menu{
     position: absolute;
-    color: rgb(199,21,133);
+    color: pink;
     font-size: 1.5rem;
     display: none;
 }
