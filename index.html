@@ -34,6 +34,73 @@
     <!--Hero-->
     <div class="hero">
     </div>
-  <script src="app.js"></script>
+ <!--Contacts Section-->
+    <div id ="Email" class="email">
+        <div class="email__content reveal">
+            <h1>Contact Us Today</h1>
+            <p>Sign up now for a free consultation about any of our offered services</p>
+            <div class="form__wrap">
+                <form target="_blank" action="https://formsubmit.co/email@gmail.com" method="POST">
+                    <input type="text" name="name" placeholder="Name" required>
+                    <input type="phone" name="phone" placeholder="Enter your Phone number" required>
+                    <input type="email" name="email" placeholder="Enter your email" required>
+                    <input type="adress" name="adress" placeholder="Enter your adress" required>
+                    <button class="button" type="submit">Send</button>
+                    <input type="hidden" name="_next" value="https://dynamic-technologies.ca/thanks.html">
+               </form>
+            </div>
+        </div>
+    </div>
+     <!--Footer section-->
+    <div id="footer" class="footer">
+        <div class="footer__wrapper">
+            <div class="footer__desc">
+                <h1>COMPANY NAME</h1>
+                <p>info</p>
+                <p id="phone">[phone number]</p>
+                <p id="email">email@gmail.com</p>
+            </div>
+            <div class="footer__links">
+                <h2 class="footer__title">Contact Us</h2>
+                <a href=# class="footer__link">Contact</a>
+                <a href=# class="footer__link">Support</a>
+            </div>
+        </div>
+        <div class="footer__wrapper">
+            <div class="footer__links">
+                <h2 class="footer__title">Social Media</h2>
+                    <a href=# class="footer__link">Contact</a>
+                    <a href=# class="footer__link">Support</a>
+            </div>
+            <div class="footer__links">
+                <h2 class="footer__title">Services</h2>
+                <a href=# class="footer__link">Pricing</a>
+                <a href=# class="footer__link">Features</a>
+            </div>
+        </div>
+         <a href="https://dynamic-technologies.ca"><img class="Dtech__tag" src="./images/Dtech tag.png" alt=" " class="d-tech"/></a>
+    </div>
+    <script type="text/javascript">
+        window.addEventListener('scroll', reveal);
+
+        function reveal(){
+            var reveals = document.querySelectorAll('.reveal');
+
+            for(var i = 0; i < reveals.length; i++){
+                
+                var windowheight = window.innerHeight;
+                var revealtop = reveals[i].getBoundingClientRect().top;
+                var revealpoint = 150;
+
+                if(revealtop < windowheight - revealpoint){
+                    reveals[i].classList.add('active');
+                }
+                else{
+                    reveals[i].classList.remove('active');
+                }
+            }
+        }
+    </script>
+    <script src="app.js"></script>
 </body>
 </html>
