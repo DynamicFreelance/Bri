@@ -11,6 +11,7 @@ html,body
     padding: 0px;
     overflow-x: hidden;
     overflow-y: scroll;
+    background:black;
 }
 /* navbar section */
 .navbar{
@@ -87,9 +88,10 @@ html,body
 
 .hero{
     background:  url('./images/Logo.png');
-    height: 100vh;
+    height: 90vh;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     padding: 0.5rem calc((100vw - 1200px) / 2);
     display: flex;
     justify-content: flex-start;
