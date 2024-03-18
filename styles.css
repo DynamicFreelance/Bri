@@ -31,11 +31,11 @@ html,body
     font-size: 1rem;
 }
 .logoimg{
-    height:80px;
-    width:80px;
+    height:90px;
+    width:90px;
 }
 .navbar__link{
-    color: rgb(199,21,133);
+    color: pink;
     text-decoration: none;
     font-weight:bold;
     padding: 0rem 0.5rem;
